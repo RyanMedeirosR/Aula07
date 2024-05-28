@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li a:hover {
+    color: orangered;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.book-title, .about-us, .contact-form, .books{
+    padding: 40px;
+}
+
+.footer {
+    background-color: #333;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin-right: 20px;
+}
